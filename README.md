@@ -5,9 +5,9 @@ A watcher for AWS EMR clusters, because I forgot to turn them off too many times
 `python3.6 clusterwatcher.py <AWS profile> <AWS Cluster Id> <Timer in minutes>`
 
 Where:
-* <AWS profile>  is your aws cli configured profile
-* <AWS Cluster Id> is the AWS cluster-id (e.g., J-XX...XXX) 
-* <Timer in minutes> is the amount of time in between each alert
+* `<AWS profile>`  is your aws cli configured profile
+* `<AWS Cluster Id>` is the AWS cluster-id (e.g., J-XX...XXX) 
+* `<Timer in minutes>` is the amount of time in between each alert
 
 ## Setting e-mail/text
 * The text/e-mail is sent from your own email address. You need to edit class Contact() with your sender/receiver information
